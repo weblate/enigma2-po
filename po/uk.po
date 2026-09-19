@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OpenATV Enigma2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-09-12 12:46+0000\n"
-"PO-Revision-Date: 2026-09-12 12:41+0000\n"
+"PO-Revision-Date: 2026-09-15 16:51+0000\n"
 "Last-Translator: igorrrrr <igorzhugan66@gmail.com>\n"
 "Language-Team: Ukrainian <https://hosted.weblate.org/projects/openatv/enigma2-7-0-po/uk/>\n"
 "Language: uk\n"
@@ -951,11 +951,11 @@ msgstr[2] "Знайдено %d мереж."
 
 #, python-format
 msgid "%d of %d channels contained a DAB+ ensemble"
-msgstr ""
+msgstr "%d із %d каналів містили мультиплекс DAB+"
 
 #, python-format
 msgid "%d of %d feeds completed"
-msgstr ""
+msgstr "Завершено обробку %d із %d стрічок"
 
 #, python-format
 msgid "%d package found."
@@ -1204,11 +1204,11 @@ msgstr "%s %sB"
 
 #, python-format
 msgid "%s (cached)"
-msgstr ""
+msgstr "%s (з кешу)"
 
 #, python-format
 msgid "%s (motor)"
-msgstr ""
+msgstr "%s (двигун)"
 
 #, python-format
 msgid "%s - Setup"
@@ -1375,7 +1375,7 @@ msgstr "'%s' відмонтовано."
 
 #, python-format
 msgid "'%s' uses enterprise authentication (802.1X). Networks like this cannot be set up here, they have to be configured manually in wpa_supplicant.conf."
-msgstr ""
+msgstr "'%s' використовує корпоративну автентифікацію (802.1X). Такі мережі неможливо налаштувати тут; їх потрібно налаштовувати вручну у файлі wpa_supplicant.conf."
 
 msgid "'Buffer in hours' or 'number of last events'. For deleting older time shift files, the condition which occurred first has priority."
 msgstr "'Буфер в годинах' або 'кількість останніх подій'. Яка з умов настає першою, по цій умові і видалятимуться старі файли таймшифта."
@@ -1642,7 +1642,7 @@ msgid "A backup is now being created."
 msgstr "Створюється резервна копія."
 
 msgid "A backup of your previous settings was found. Do you want to restore it before continuing with the setup?"
-msgstr ""
+msgstr "Знайдено резервну копію ваших попередніх налаштувань. Бажаєте відновити її перед продовженням налаштування?"
 
 msgid "A comma separated list of extensions to be used for 'My Extension' setting of 'Filter extension'. Enter the extension names without a leading dot (.)."
 msgstr "Відокремлений комами список розширень, які будуть використовуватися для параметра 'Мої розширення' параметра 'Розширення Фільтр розширень'. Введіть назви розширень без крапки на початку (.)."
@@ -1955,7 +1955,7 @@ msgstr "Адаптер"
 
 #, python-format
 msgid "Adapter '%s'"
-msgstr ""
+msgstr "Адаптер '%s'"
 
 #, python-format
 msgid "Adapter '%s' Context Menu"
@@ -2209,7 +2209,7 @@ msgid "Adjust the horizontal position of the letters used for teletext."
 msgstr "Налаштування горизонтального положення букв, які використовуються для телетексту."
 
 msgid "Adjust the tuner oscillator offset to refine the DAB+ signal reception."
-msgstr ""
+msgstr "Відрегулюйте зміщення частоти гетеродина тюнера для покращення якості прийому сигналу DAB+."
 
 msgid "Adjust the vertical position of the letters used for teletext."
 msgstr "Налаштування вертикального положення букв, які використовуються для телетексту."
@@ -2338,7 +2338,7 @@ msgid "All files"
 msgstr "Всі файли"
 
 msgid "All regions"
-msgstr ""
+msgstr "Усі регіони"
 
 msgid "All resolutions"
 msgstr "Всі роздільності"
@@ -2519,7 +2519,7 @@ msgid "Amount %d / Success %d / Failed %d"
 msgstr "Кількість %d / Успіх %d / Невдача %d"
 
 msgid "An RTL-SDR receiver was detected. The optional DAB+ USB runtime is being installed from the feed."
-msgstr ""
+msgstr "Виявлено приймач RTL-SDR. Додатковий компонент DAB+ USB встановлюється з репозиторію."
 
 msgid "An attempt is made to capture the current TV status. If status messages are incorrect or missing, the receiver may respond unexpectedly. Otherwise, it helps the receiver handle different operating conditions more effectively."
 msgstr "Зроблено спробу зафіксувати поточний статус телевізора. Якщо це неможливо через неправильні, або відсутні повідомлення про статус, це може призвести до неочікуваної відповіді приймача. З іншого боку, намагається краще реагувати на різні умови експлуатації."
@@ -2836,7 +2836,7 @@ msgid "Audio Synchronization"
 msgstr "Синхронізація аудіо"
 
 msgid "Audio bit rate"
-msgstr ""
+msgstr "Бітрейт аудіо"
 
 msgid "Audio language selection 1"
 msgstr "Вибір мови аудіо 1"
@@ -2953,7 +2953,7 @@ msgid "Automatic Service Searching"
 msgstr "Автоматичний пошук каналів"
 
 msgid "Automatic gain"
-msgstr ""
+msgstr "Автоматичне підсилення"
 
 msgid "Automatic resolution"
 msgstr "Автороздільність екрану"
@@ -3297,14 +3297,14 @@ msgstr "Мигаючий значок запису"
 
 #, python-format
 msgid "Block %s"
-msgstr ""
+msgstr "Заблокувати %s"
 
 #, python-format
 msgid "Block %s - %.3f MHz"
-msgstr ""
+msgstr "Блок %s — %.3f МГц"
 
 msgid "Block RTL2832 DVB kernel driver"
-msgstr ""
+msgstr "Заблокувати драйвер ядра RTL2832 DVB"
 
 msgid "Block device"
 msgstr "Заблокований пристрій"
@@ -4544,7 +4544,7 @@ msgid "Close network test"
 msgstr "Закрити тест мережі"
 
 msgid "Close network test and exit all menus"
-msgstr ""
+msgstr "Завершити перевірку мережі та вийти з усіх меню"
 
 msgid "Close screen"
 msgstr "Закрити вікно"
@@ -4607,7 +4607,7 @@ msgid "Code rate LP"
 msgstr "Швидк. кодування LP"
 
 msgid "Codec"
-msgstr ""
+msgstr "Кодек"
 
 msgid "Collapse"
 msgstr "Згорнути"
@@ -5507,7 +5507,7 @@ msgid "Create kernel dump."
 msgstr "Створення дампу ядра."
 
 msgid "Create or remove the RTL2832 DVB module blacklist. A full receiver reboot is required; while enabled, this USB tuner is available for DAB+ but not for DVB-T/T2."
-msgstr ""
+msgstr "Створіть або видаліть запис у чорному списку для модуля RTL2832 DVB. Необхідне повне перезавантаження приймача; коли модуль заблоковано, цей USB-тюнер доступний для DAB+, але не для DVB-T/T2."
 
 #, python-format
 msgid "Create recovery image backup '%s'."
@@ -5783,36 +5783,36 @@ msgid "DAB+ Scan"
 msgstr "Сканування DAB+"
 
 msgid "DAB+ Settings"
-msgstr ""
+msgstr "Налаштування DAB+"
 
 msgid "DAB+ Settings Actions"
-msgstr ""
+msgstr "Налаштування та дії DAB+"
 
 msgid "DAB+ USB support could not be installed from the feed."
-msgstr ""
+msgstr "Підтримку DAB+ через USB не вдалося встановити з репозиторію."
 
 msgid "DAB+ USB support was installed. You can now enable the receiver in Reception settings."
-msgstr ""
+msgstr "Встановлено підтримку DAB+ через USB. Тепер ви можете активувати приймач у налаштуваннях прийому."
 
 msgid "DAB+ USB: bouquet could not be written"
-msgstr ""
+msgstr "DAB+ USB: не вдалося записати букет"
 
 msgid "DAB+ channel"
-msgstr ""
+msgstr "Канал DAB+"
 
 #, python-format
 msgid "DAB+ channel %s"
-msgstr ""
+msgstr "Канал DAB+ %s"
 
 msgid "DAB+ decoder back end not installed"
-msgstr ""
+msgstr "Не встановлено серверний компонент декодера DAB+"
 
 msgid "DAB+ scan failed; existing bouquets were kept."
 msgstr "Сканування DAB+ не вдалося; наявні букети було збережено."
 
 #, python-format
 msgid "DAB+ service information for '%s'"
-msgstr ""
+msgstr "Інформація про службу DAB+ для '%s'"
 
 msgid "DAC"
 msgstr "DAC"
@@ -5873,10 +5873,10 @@ msgid "DVB Subtitles PID & Language"
 msgstr "PID і мова DVB субтитрів"
 
 msgid "DVB frontend"
-msgstr ""
+msgstr "DVB-інтерфейс"
 
 msgid "DVB payload PID"
-msgstr ""
+msgstr "PID корисного навантаження DVB"
 
 msgid "DVB subtitle black transparency"
 msgstr "Прозорість DVB субтитрів"
@@ -6592,7 +6592,7 @@ msgid "Detect positioner movement by its current consumption."
 msgstr "Виявляти рух позиціонера за його споживаним струмом."
 
 msgid "Detected USB hardware"
-msgstr ""
+msgstr "Виявлено USB-обладнання"
 
 msgid "Detective"
 msgstr "Детектив"
@@ -7259,7 +7259,7 @@ msgid "Dynamic contrast"
 msgstr "Динамічний контраст"
 
 msgid "Dynamic label"
-msgstr ""
+msgstr "Динамічна мітка"
 
 msgid "Dzongkha"
 msgstr "Дзонгха"
@@ -7459,13 +7459,13 @@ msgid "Edit the NewCamd DES Key."
 msgstr "Редагування DES ключа NewCamd."
 
 msgid "Edit the currently highlighted feed"
-msgstr ""
+msgstr "Редагувати виділену стрічку"
 
 msgid "Edit the currently selected timer"
 msgstr "Відредагуйте поточний вибраний таймер"
 
 msgid "Edit the feed URL:"
-msgstr ""
+msgstr "Редагувати URL-адресу стрічки:"
 
 msgid "Edit the password."
 msgstr "Редагування паролю."
@@ -7559,7 +7559,7 @@ msgid "Enable Chkroot MultiBoot"
 msgstr "Увімкнути Chkroot MultiBoot"
 
 msgid "Enable DAB+ mode"
-msgstr ""
+msgstr "Увімкнути режим DAB+"
 
 msgid "Enable EIT EPG"
 msgstr "Включити EIT ЕПГ"
@@ -7634,7 +7634,7 @@ msgid "Enable Virgin EPG"
 msgstr "Увімкнути Virgin ЕПГ"
 
 msgid "Enable a selected RTL-SDR USB receiver for DAB+ reception. DVB-T and DAB+ cannot use the same receiver at the same time."
-msgstr ""
+msgstr "Увімкніть вибраний USB-приймач RTL-SDR для прийому DAB+. DVB-T і DAB+ не можуть використовувати один і той самий приймач одночасно."
 
 msgid "Enable adapter"
 msgstr "Увімкнути адаптер"
@@ -7758,7 +7758,7 @@ msgid "Enable this option to add bouquet database information to the debug log f
 msgstr "Ввімкніть цю опцію, щоб додати інформацію про базу даних фаворитів до файлу журналу налагодження."
 
 msgid "Enable this option to add detailed DAB+ receiver, packet, MOT and SPI information to the debug log file."
-msgstr ""
+msgstr "Увімкніть цю опцію, щоб додати до файлу журналу налагодження детальну інформацію про приймач DAB+, пакети, MOT та SPI."
 
 msgid "Enable this option to add extra DVB details to the debug log file."
 msgstr "Увімкніть цей параметр, щоб додати додаткові відомості про DVB до файлу журналу налагодження."
@@ -7806,7 +7806,7 @@ msgid "Enable this option to add timer debugging data to the debug log file."
 msgstr "Увімкніть цей параметр, щоб додати дані налагодження таймера до файлу журналу налагодження."
 
 msgid "Enable this option to add verbose SEC/DiSEqC debug data to the debug log file."
-msgstr ""
+msgstr "Увімкніть цю опцію, щоб додати розширені дані налагодження SEC/DiSEqC до файлу журналу налагодження."
 
 msgid "Enable this option to show all the available Information screens in the Information menu item list."
 msgstr "Увімкніть цей параметр, щоб відобразити всі доступні екрани інформації в списку пунктів меню 'Інформація'."
@@ -7934,10 +7934,10 @@ msgid "Enigmalight"
 msgstr "Енігма-light"
 
 msgid "Ensemble"
-msgstr ""
+msgstr "Мультиплекс"
 
 msgid "Ensemble ID (EID)"
-msgstr ""
+msgstr "Ідентифікатор мультиплексу (EID)"
 
 msgid "Enter"
 msgstr "Ввести"
@@ -8734,7 +8734,7 @@ msgid "FFmpeg is not installed so '.mvi' file actions are not available!"
 msgstr "FFmpeg не встановлено, тому дії з файлами '.mvi' недоступні!"
 
 msgid "FIC quality"
-msgstr ""
+msgstr "Якість FIC"
 
 msgid "FIFO"
 msgstr "FIFO"
@@ -9310,7 +9310,7 @@ msgid "Frequency bands"
 msgstr "Частотний діапазон"
 
 msgid "Frequency correction offset"
-msgstr ""
+msgstr "Зміщення частотної корекції"
 
 msgid "Frequency range"
 msgstr "Діапазон частот"
@@ -9403,7 +9403,7 @@ msgid "Gaelic"
 msgstr "Гальська"
 
 msgid "Gain steps"
-msgstr ""
+msgstr "Кроки підсилення"
 
 msgid "Galicia (Spain)"
 msgstr "Галіція (Іспанія)"
@@ -10449,7 +10449,7 @@ msgid "In progress"
 msgstr "В процесі"
 
 msgid "In use by DAB+"
-msgstr ""
+msgstr "Використовується DAB+"
 
 msgid "Inaccessible"
 msgstr "Недоступний"
@@ -10473,7 +10473,7 @@ msgid "Include CI assignment"
 msgstr "Додати призначення CI"
 
 msgid "Include DAB+ data"
-msgstr ""
+msgstr "Включити дані DAB+"
 
 msgid "Include DVB details"
 msgstr "Додати деталі DVB"
@@ -10500,7 +10500,7 @@ msgid "Include SDT and BAT in http streams"
 msgstr "Долучити SDT, BAT у потоки HTTP"
 
 msgid "Include SEC/DiSEqC data"
-msgstr ""
+msgstr "Включити дані SEC/DiSEqC"
 
 msgid "Include action map data"
 msgstr "Включити дані карти дій"
@@ -10539,7 +10539,7 @@ msgid "Include text encoding data"
 msgstr "Включити дані кодування тексту"
 
 msgid "Include this configured satellite position in the DAB+ scan. Disable it to skip the position."
-msgstr ""
+msgstr "Включіть цю налаштовану позицію супутника до сканування DAB+. Вимкніть її, щоб пропустити цю позицію."
 
 msgid "Include timer data"
 msgstr "Включити дані таймера"
@@ -10611,7 +10611,7 @@ msgid "InfoBar Timing And Appearance"
 msgstr "Час появи та вигляд інформаційної панелі"
 
 msgid "InfoBar Visibility And Behavior"
-msgstr ""
+msgstr "Видимість і поведінка інфобару"
 
 msgid "InfoBar fade-out speed"
 msgstr "Швидкість згасання Інфобару"
@@ -11031,7 +11031,7 @@ msgid "Kernel Packages"
 msgstr "Пакети ядра"
 
 msgid "Kernel driver"
-msgstr ""
+msgstr "Драйвер ядра"
 
 msgid "Kernel file"
 msgstr "Файл ядра"
@@ -11062,7 +11062,7 @@ msgid "Key"
 msgstr "Ключ"
 
 msgid "Key Map And Power Buttons"
-msgstr ""
+msgstr "Основні клавіші та кнопки живлення"
 
 msgid "Keyboard"
 msgstr "Клавіатура"
@@ -11131,7 +11131,7 @@ msgid "LAN connection"
 msgstr "LAN з'єднання"
 
 msgid "LAN link"
-msgstr ""
+msgstr "З'єднання з локальною мережею"
 
 msgid "LCD scroll speed"
 msgstr "Швидкість прокрутки на LCD"
@@ -11167,7 +11167,7 @@ msgid "LED Deep Standby color"
 msgstr "Колір LED у вимкненому режимі"
 
 msgid "LED Indicators"
-msgstr ""
+msgstr "Світлодіодні індикатори"
 
 msgid "LED Normal"
 msgstr "LED Нормально"
@@ -11296,7 +11296,7 @@ msgid "Latvian"
 msgstr "Латвійська"
 
 msgid "Layout And Fonts"
-msgstr ""
+msgstr "Макет і шрифти"
 
 msgid "Leave"
 msgstr "Залишити"
@@ -11344,7 +11344,7 @@ msgid "Left, wrapped"
 msgstr "зліва, прихований"
 
 msgid "Legacy (SMB1)"
-msgstr ""
+msgstr "Застарілий (SMB1)"
 
 msgid "Legacy mode"
 msgstr "Старий вигляд"
@@ -11356,7 +11356,7 @@ msgid "Lesotho"
 msgstr "Лесото"
 
 msgid "Let the tuner select its RF gain automatically."
-msgstr ""
+msgstr "Дозвольте тюнеру автоматично вибрати коефіцієнт підсилення радіочастотного сигналу."
 
 msgid "LetterBox zoom"
 msgstr "Збільшення Поштова скринька"
@@ -11396,7 +11396,7 @@ msgid "Lime"
 msgstr "вапняний"
 
 msgid "Limit a DAB+ USB scan to the frequency blocks defined for this region in the 'dab.xml' file."
-msgstr ""
+msgstr "Обмежте сканування DAB+ через USB частотними блоками, визначеними для цього регіону у файлі 'dab.xml'."
 
 msgid "Limit character set for recording filenames"
 msgstr "Ліміт символів для назв записаних файлів"
@@ -11457,7 +11457,7 @@ msgid "Links"
 msgstr "Посилання"
 
 msgid "List Appearance And Sorting"
-msgstr ""
+msgstr "Вигляд і сортування списку"
 
 msgid "List Navigation Actions"
 msgstr "Список дій навігації"
@@ -11539,7 +11539,7 @@ msgid "Local receiver"
 msgstr "Локальний приймач"
 
 msgid "Local share"
-msgstr ""
+msgstr "Локальний спільний ресурс"
 
 msgid "Local time"
 msgstr "Локальна година"
@@ -11602,7 +11602,7 @@ msgid "Lock:"
 msgstr "З’єднання:"
 
 msgid "Locked"
-msgstr ""
+msgstr "Заблоковано"
 
 msgid "Log"
 msgstr "Лог"
@@ -11615,7 +11615,7 @@ msgid "Log Manager"
 msgstr "Управління логами"
 
 msgid "Log Retention And Access"
-msgstr ""
+msgstr "Зберігання журналів та доступ до них"
 
 #, python-format
 msgid "Log file '%s' deleted."
@@ -11717,7 +11717,7 @@ msgid "M2k Packages"
 msgstr "Пакети M2k"
 
 msgid "MAC Address"
-msgstr ""
+msgstr "MAC-адреса"
 
 msgid "MAC address"
 msgstr "MAC-адреса"
@@ -11741,7 +11741,7 @@ msgid "MOUSE"
 msgstr "МИША"
 
 msgid "MSC audio frame quality"
-msgstr ""
+msgstr "Якість аудіокадрів MSC"
 
 msgid "MTD boot"
 msgstr "MTD завантаження"
@@ -11977,7 +11977,7 @@ msgid "Media Center"
 msgstr "Медіа Центр"
 
 msgid "Media Files And Navigation"
-msgstr ""
+msgstr "Медіафайли та навігація"
 
 msgid "Media Player"
 msgstr "Медіа Плеєр"
@@ -12062,7 +12062,7 @@ msgid "Menu style"
 msgstr "Стиль меню"
 
 msgid "Menus And Setup"
-msgstr ""
+msgstr "Меню та налаштування"
 
 msgid "Merge broadcast EPG with IceTV"
 msgstr "Об'єднати ЕПГ з трансляцію IceTV"
@@ -12113,7 +12113,7 @@ msgid "MiniTV"
 msgstr "МініТВ"
 
 msgid "MiniTV And PiP"
-msgstr ""
+msgstr "MiniTV та PiP"
 
 msgid "MiniTV with OSD"
 msgstr "Міні-ТВ з OSD"
@@ -12248,7 +12248,7 @@ msgid "Mount"
 msgstr "Підключення"
 
 msgid "Mount Context Menu"
-msgstr ""
+msgstr "Підключити контекстне меню"
 
 msgid "Mount Point"
 msgstr "Точка монтування"
@@ -12257,19 +12257,19 @@ msgid "Mount Setup"
 msgstr "Налаштування монтування"
 
 msgid "Mount at boot time (fstab)"
-msgstr ""
+msgstr "Монтувати під час завантаження (fstab)"
 
 msgid "Mount failed"
 msgstr "Монтування невдале"
 
 msgid "Mount mode"
-msgstr ""
+msgstr "Режим монтування"
 
 msgid "Mount on first access (autofs)"
-msgstr ""
+msgstr "Монтувати під час першого доступу (autofs)"
 
 msgid "Mount or unmount the selected share"
-msgstr ""
+msgstr "Підключити або відключити вибраний спільний ресурс"
 
 msgid "Mount point"
 msgstr "Точка монтування"
@@ -12278,7 +12278,7 @@ msgid "Mount root file system."
 msgstr "Монтування кореневої файлової системи."
 
 msgid "Mounted"
-msgstr ""
+msgstr "Встановлений"
 
 msgid "Mounts"
 msgstr "Точки монтування"
@@ -12287,7 +12287,7 @@ msgid "Move"
 msgstr "Переміщення"
 
 msgid "Move Down"
-msgstr ""
+msgstr "Перемістити вниз"
 
 msgid "Move Left/Right"
 msgstr "Переміщення вліво/вправо"
@@ -12308,7 +12308,7 @@ msgid "Move PiP to main picture"
 msgstr "Перемістити PiP на основний екран"
 
 msgid "Move Up"
-msgstr ""
+msgstr "Перемістити вище"
 
 msgid "Move Up/Down"
 msgstr "Перемістити вгору/вниз"
@@ -12362,10 +12362,10 @@ msgid "Move east"
 msgstr "Перемістити на схід"
 
 msgid "Move item down"
-msgstr ""
+msgstr "Перемістити елемент униз"
 
 msgid "Move item up"
-msgstr ""
+msgstr "Перемістити елемент угору"
 
 msgid "Move job completed."
 msgstr "Переміщення завершено."
@@ -12474,10 +12474,10 @@ msgid "Move to previous marker"
 msgstr "Перейти до попереднього маркера"
 
 msgid "Move to the Adapter list"
-msgstr ""
+msgstr "Перейти до списку адаптерів"
 
 msgid "Move to the Saved Wi-Fi Networks list"
-msgstr ""
+msgstr "Перейдіть до списку збережених мереж Wi-Fi"
 
 msgid "Move to the first item on the current line"
 msgstr "Перейти до першого елемента в поточному рядку"
@@ -12576,7 +12576,7 @@ msgid "Movie List"
 msgstr "Список записів"
 
 msgid "Movie List And Playback Behavior"
-msgstr ""
+msgstr "Список фільмів та поведінка відтворення"
 
 msgid "Movie Player Actions"
 msgstr "Дії для Плеєра записів"
@@ -12612,7 +12612,7 @@ msgid "Moving files"
 msgstr "Переміщення файлів"
 
 msgid "Moving rotor and tuning DAB+ satellite feed..."
-msgstr ""
+msgstr "Переміщення ротора та налаштування супутникового сигналу DAB+..."
 
 msgid "Moving to position"
 msgstr "Переміщення на позицію"
@@ -12714,13 +12714,13 @@ msgid "NFS Server Settings"
 msgstr "Налаштування NFS"
 
 msgid "NFS Setup Actions"
-msgstr ""
+msgstr "Дії з налаштування NFS"
 
 msgid "NFS threads"
 msgstr "Потоки NFS"
 
 msgid "NFS version"
-msgstr ""
+msgstr "Версія NFS"
 
 msgid "NIM"
 msgstr "NIM"
@@ -12807,10 +12807,10 @@ msgid "Navigate up/down with UP/DOWN buttons and page up/down with LEFT/RIGHT. O
 msgstr "Переміщення вгору/вниз за допомогою кнопок ВГОРУ/ВНИЗ та прокручування сторінок вгору/вниз за допомогою ВЛІВО/ВПРАВО. ОК, щоб виконати дію, описану в поточній довідці."
 
 msgid "Navigation And Button Assignments"
-msgstr ""
+msgstr "Навігація та призначення кнопок"
 
 msgid "Navigation And Time Range"
-msgstr ""
+msgstr "Навігація та часовий діапазон"
 
 msgid "Ndonga"
 msgstr "Ndonga"
@@ -12835,7 +12835,7 @@ msgstr "Мережа"
 
 #, python-format
 msgid "Network Adapter '%s' Settings"
-msgstr ""
+msgstr "Налаштування мережевого адаптера '%s'"
 
 msgid "Network Adapter Selection"
 msgstr "Вибір мережного адаптера"
@@ -12847,7 +12847,7 @@ msgid "Network Browser"
 msgstr "Провідник мережі"
 
 msgid "Network Credentials"
-msgstr ""
+msgstr "Мережеві облікові дані"
 
 msgid "Network ID"
 msgstr "Мережевий ID"
@@ -12868,22 +12868,22 @@ msgid "Network Log Actions"
 msgstr "Дії мережевого журналу"
 
 msgid "Network Mount Manager Actions"
-msgstr ""
+msgstr "Дії менеджера монтування мережі"
 
 msgid "Network Mount Settings"
-msgstr ""
+msgstr "Налаштування мережевого монтування"
 
 msgid "Network Mounts Overview"
-msgstr ""
+msgstr "Огляд мережевих монтувань"
 
 msgid "Network Neighbourhood"
 msgstr "Мережеве оточення"
 
 msgid "Network Overview"
-msgstr ""
+msgstr "Огляд мережі"
 
 msgid "Network Overview Actions"
-msgstr ""
+msgstr "Дії для огляду мережі"
 
 msgid "Network Packages"
 msgstr "Мережеві пакети"
@@ -12901,52 +12901,52 @@ msgid "Network Setup Actions"
 msgstr "Дії з налаштування мережі"
 
 msgid "Network Share Actions"
-msgstr ""
+msgstr "Дії з мережевими спільними ресурсами"
 
 msgid "Network Shares Browser"
-msgstr ""
+msgstr "Оглядач мережевих ресурсів"
 
 msgid "Network Shares Context Menu"
-msgstr ""
+msgstr "Контекстне меню мережевих ресурсів"
 
 msgid "Network Test"
 msgstr "Тест Мережі"
 
 msgid "Network Test Actions"
-msgstr ""
+msgstr "Дії для перевірки мережі"
 
 #, python-format
 msgid "Network Test For '%s'"
-msgstr ""
+msgstr "Мережевий тест для '%s'"
 
 msgid "Network Wi-Fi Settings"
 msgstr "Налаштування мережі Wi-Fi"
 
 msgid "Network adapter disabled."
-msgstr ""
+msgstr "Мережевий адаптер вимкнено."
 
 msgid "Network adapter enabled."
-msgstr ""
+msgstr "Мережевий адаптер увімкнено."
 
 msgid "Network adapter not connected to a network!"
 msgstr "Мережевий адаптер не підключений до мережі!"
 
 msgid "Network adapter setup result:"
-msgstr ""
+msgstr "Результат налаштування мережевого адаптера:"
 
 msgid "Network adapter status"
-msgstr ""
+msgstr "Стан мережевого адаптера"
 
 msgid "Network address"
 msgstr "Мережева адреса"
 
 #, python-format
 msgid "Network cable connected (%s)"
-msgstr ""
+msgstr "Мережевий кабель підключено (%s)"
 
 #, python-format
 msgid "Network cable disconnected (%s)"
-msgstr ""
+msgstr "Мережевий кабель від’єднано (%s)"
 
 msgid "Network configuration..."
 msgstr "Налаштування мережі..."
@@ -12958,6 +12958,10 @@ msgid ""
 "Interface: %s\n"
 "IP address: %s"
 msgstr ""
+"Мережеве підключення встановлено успішно.\n"
+"\n"
+"Інтерфейс: %s\n"
+"IP-адреса: %s"
 
 msgid "Network information"
 msgstr "Інформація про мережу"
@@ -13024,7 +13028,7 @@ msgid "New Storage Device"
 msgstr "Новий пристрій зберігання даних"
 
 msgid "New Wi-Fi"
-msgstr ""
+msgstr "Новий Wi-Fi"
 
 msgid "New Zealand"
 msgstr "Нова Зеландія"
@@ -13130,13 +13134,16 @@ msgid "No HDD found or HDD not initialized!"
 msgstr "Не знайдено жодного HDD, або HDD не ініціалізовано!"
 
 msgid "No IP address"
-msgstr ""
+msgstr "Немає IP-адреси"
 
 msgid ""
 "No IP address was received.\n"
 "\n"
 "The network connection could not be established."
 msgstr ""
+"IP-адресу не отримано.\n"
+"\n"
+"Не вдалося встановити мережеве з’єднання."
 
 msgid "No Internet connection"
 msgstr "Немає підключення до Інтернету"
@@ -13178,7 +13185,7 @@ msgid "No channel list"
 msgstr "немає списку каналів"
 
 msgid "No compatible RTL-SDR USB tuner detected"
-msgstr ""
+msgstr "Не виявлено сумісного USB-тюнера RTL-SDR"
 
 msgid ""
 "No data on transponder!\n"
@@ -13212,13 +13219,13 @@ msgid "No free tuner!"
 msgstr "Немає вільного тюнера!"
 
 msgid "No gateway"
-msgstr ""
+msgstr "Шлюз відсутній"
 
 msgid "No hard disks detected."
 msgstr "Жорстких дисків не виявлено."
 
 msgid "No hosts found yet - still scanning..."
-msgstr ""
+msgstr "Хостів ще не знайдено — сканування триває..."
 
 msgid "No log files found so debug logs are unavailable!"
 msgstr "Файлів журналу не знайдено, тому журнали налагодження недоступні!"
@@ -13233,7 +13240,7 @@ msgid "No network storage detected."
 msgstr "Мережеве сховище не виявлено."
 
 msgid "No networks found."
-msgstr ""
+msgstr "Мереж не знайдено."
 
 msgid "No of items switch (increase or reduced)"
 msgstr "Немає даних про перемикання (збільшення або зменшення)"
@@ -13260,7 +13267,7 @@ msgid "No services/providers selected"
 msgstr "Не вибрані канали/провайдери"
 
 msgid "No shares found."
-msgstr ""
+msgstr "Акцій не знайдено."
 
 msgid "No slot images found"
 msgstr "Слотів з іміджами не знайдено"
@@ -13278,7 +13285,7 @@ msgid "No suitable sat tuner found!"
 msgstr "Немає відповідного сат-тюнера!"
 
 msgid "No supported DAB+ feeds are available for the satellite positions configured on this box."
-msgstr ""
+msgstr "Для супутникових позицій, налаштованих на цьому пристрої, немає доступних підтримуваних потоків DAB+."
 
 msgid "No system softcam configured!"
 msgstr "Системну програмну камеру не налаштовано!"
@@ -13332,10 +13339,10 @@ msgid "No updates available."
 msgstr "Немає доступних оновлень."
 
 msgid "No usable RTL-SDR DAB+ receiver was found."
-msgstr ""
+msgstr "Не знайдено придатного для використання RTL-SDR DAB+-приймача."
 
 msgid "No valid DAB+ feeds configured. Check /etc/enigma2/dab.xml."
-msgstr ""
+msgstr "Не налаштовано жодного дійсного потоку DAB+. Перевірте /etc/enigma2/dab.xml."
 
 msgid "No valid device detected - Press OK"
 msgstr "Не виявлено жодного дійсного пристрою - натисніть OK"
@@ -13351,7 +13358,7 @@ msgid "No, but restart from begin"
 msgstr "Ні, але відтворити фільм з початку"
 
 msgid "No, continue with the setup"
-msgstr ""
+msgstr "Ні, продовжуйте налаштування"
 
 msgid "No, don't flash this image"
 msgstr "Ні, не прошивати імідж"
@@ -13429,7 +13436,7 @@ msgid "Not Classified"
 msgstr "Не класифіковано"
 
 msgid "Not Connected"
-msgstr ""
+msgstr "Не підключено"
 
 msgid "Not Defined"
 msgstr "Не визначений"
@@ -13477,13 +13484,13 @@ msgstr ""
 "Шлях: %s"
 
 msgid "Not found"
-msgstr ""
+msgstr "Не знайдено"
 
 msgid "Not joined. Press Yellow to join."
 msgstr "Не приєдналися. Натисніть жовту кнопку, щоб приєднатися."
 
 msgid "Not mounted"
-msgstr ""
+msgstr "Не встановлено"
 
 msgid "Not required"
 msgstr "Не потрібно"
@@ -13514,7 +13521,7 @@ msgid "Nothing, just leave this menu"
 msgstr "Нічого не робити, вийти з цього меню"
 
 msgid "Notifications And Display"
-msgstr ""
+msgstr "Сповіщення та дисплей"
 
 msgctxt "now/next: 'now' event label"
 msgid "Now"
@@ -13901,22 +13908,22 @@ msgid "Open the Channel Selection Settings screen"
 msgstr "Відкрити екран налаштувань Списку каналів"
 
 msgid "Open the Context Menu for the selected item"
-msgstr ""
+msgstr "Відкрийте контекстне меню для вибраного елемента"
 
 msgid "Open the Image information"
 msgstr "Відкрити інформацію про Імідж"
 
 msgid "Open the Mount Context Menu"
-msgstr ""
+msgstr "Відкрити контекстне меню монтування"
 
 msgid "Open the Network Adapter Settings for the selected item"
-msgstr ""
+msgstr "Відкрийте налаштування мережевого адаптера для вибраного елемента"
 
 msgid "Open the Network Shares Browser"
-msgstr ""
+msgstr "Відкрити браузер мережевих ресурсів"
 
 msgid "Open the Network Shares Context Menu"
-msgstr ""
+msgstr "Відкрийте контекстне меню мережевих ресурсів"
 
 msgid "Open the Plugin Browser"
 msgstr "Відкрити Провідник додатків"
@@ -13952,13 +13959,13 @@ msgid "OpenViX Packages"
 msgstr "Пакети OpenViX"
 
 msgid "OpenWebif Connection"
-msgstr ""
+msgstr "Підключення до OpenWebif"
 
 msgid "OpenWebif picon path"
 msgstr "Шлях піконів OpenWebif"
 
 msgid "Opening network adapter configuration..."
-msgstr ""
+msgstr "Відкриття конфігурації мережевого адаптера..."
 
 msgid "Opera"
 msgstr "Опера"
@@ -13988,7 +13995,7 @@ msgid "Option to enable the hardware Standby timer."
 msgstr "Включити таймер режиму очікування HDD."
 
 msgid "Optional arguments"
-msgstr ""
+msgstr "Необов’язкові аргументи"
 
 msgid "Optional delay between CEC commands when sending a series of commands. Leave disabled unless a device requires slower transmission."
 msgstr "Додаткова затримка між командами CEC під час надсилання серії команд. Залиште вимкненим, якщо пристрій не потребує повільнішої передачі."
@@ -14039,7 +14046,7 @@ msgid "Other Actions"
 msgstr "Інші Дії"
 
 msgid "Other OSD Elements"
-msgstr ""
+msgstr "Інші елементи OSD"
 
 msgid "Other Packages"
 msgstr "Інші пакети"
@@ -14167,13 +14174,13 @@ msgid "Package"
 msgstr "Пакет"
 
 msgid "Package Categories"
-msgstr ""
+msgstr "Категорії пакетів"
 
 msgid "Package Feed Editor"
-msgstr ""
+msgstr "Редактор каналу пакетів"
 
 msgid "Package Feed Editor Actions"
-msgstr ""
+msgstr "Дії редактора каналу пакетів"
 
 msgid "Package Manager"
 msgstr "Управління пакетами"
@@ -14287,7 +14294,7 @@ msgstr "Пропуск"
 
 #, python-format
 msgid "Pass %d/%d"
-msgstr ""
+msgstr "Прохід %d/%d"
 
 msgid "Pass-through"
 msgstr "Проходити через"
@@ -14444,7 +14451,7 @@ msgid "Picon width"
 msgstr "Ширина Піконів"
 
 msgid "Picture In Picture"
-msgstr ""
+msgstr "Картинка в картинці"
 
 msgid "Picture Information"
 msgstr "Інформація про зображення"
@@ -14478,7 +14485,7 @@ msgid "Pilot"
 msgstr "Пілот"
 
 msgid "Pinging..."
-msgstr ""
+msgstr "Виконується пінг..."
 
 msgid "Pink"
 msgstr "рожевий"
@@ -14583,10 +14590,10 @@ msgid "Play the selected service"
 msgstr "Відтворити вибраний канал"
 
 msgid "Playback And Saving"
-msgstr ""
+msgstr "Відтворення та збереження"
 
 msgid "Playback And Status"
-msgstr ""
+msgstr "Відтворення та стан"
 
 msgid "Playback Settings"
 msgstr "Налаштування відтворення"
@@ -14932,7 +14939,7 @@ msgid "Position"
 msgstr "Позиція"
 
 msgid "Position in the tuner's supported gain range. The back end selects the closest gain step."
-msgstr ""
+msgstr "Позиція в межах діапазону підсилення, що підтримується тюнером. Вихідний каскад обирає найближчий крок підсилення."
 
 msgid "Position of finished Timers in Timerlist"
 msgstr "Розташування виконаних таймерів в списку"
@@ -15204,7 +15211,7 @@ msgid "Primary DNS (IPv6)"
 msgstr "Основний DNS (IPv6)"
 
 msgid "Prime Time"
-msgstr ""
+msgstr "Прайм-тайм"
 
 msgid "Prime time"
 msgstr "Прайм-тайм"
@@ -15258,7 +15265,7 @@ msgid "Processor information"
 msgstr "Інформація про прцесор"
 
 msgid "Product"
-msgstr ""
+msgstr "Продукт"
 
 msgid "Profile"
 msgstr "Профіль"
@@ -15274,7 +15281,7 @@ msgid "Program '%s' needs to be installed to perform this action. Do you want to
 msgstr "Для виконання цієї дії необхідно встановити програму '%s'. Бажаєте встановити пакет '%s', щоб інсталювати програму?"
 
 msgid "Program type"
-msgstr ""
+msgstr "Тип програми"
 
 msgid "Programmlisten History"
 msgstr "Історія програми"
@@ -15355,7 +15362,7 @@ msgid "Protect timer menu"
 msgstr "Захистити меню таймерів"
 
 msgid "Protection"
-msgstr ""
+msgstr "Захист"
 
 msgid "Protocol"
 msgstr "Протокол"
@@ -15535,10 +15542,10 @@ msgid "RF Output Settings"
 msgstr "RF вихід"
 
 msgid "RF SNR"
-msgstr ""
+msgstr "РЧ сигнал/шум"
 
 msgid "RF gain"
-msgstr ""
+msgstr "Підсилення РЧ-сигналу"
 
 msgid "RGB clamp (lower)"
 msgstr "Затискач RGB (нижній)"
@@ -15547,10 +15554,10 @@ msgid "RGB clamp (upper)"
 msgstr "Затискач RGB (верхній)"
 
 msgid "RTL-SDR USB tuner"
-msgstr ""
+msgstr "USB-тюнер RTL-SDR"
 
 msgid "RTL-SDR tuner"
-msgstr ""
+msgstr "Тюнер RTL-SDR"
 
 msgid "Racing"
 msgstr "Гонки"
@@ -15581,16 +15588,16 @@ msgid "Re-enter new PIN"
 msgstr "Повторно введіть новий ПІН"
 
 msgid "Reachable"
-msgstr ""
+msgstr "Досяжний"
 
 msgid "Read Only"
-msgstr ""
+msgstr "Тільки для читання"
 
 msgid "Read Userdata from 'oscam.conf'"
 msgstr "Дані користувача з oscam.conf"
 
 msgid "Read block size"
-msgstr ""
+msgstr "Розмір блоку читання"
 
 msgid "Read-Only"
 msgstr "Тільки для читання"
@@ -21222,7 +21229,7 @@ msgid "TMDB Search"
 msgstr "TMDB Пошук"
 
 msgid "TRANSLATOR_INFO"
-msgstr "Переклад: kvinto - Monja 12.09.2026"
+msgstr "Переклад: kvinto - Monja 14.09.2026"
 
 msgid "TS file is too large for ISO9660 level 1!"
 msgstr "TS файл занадто великий для ISO9660 рівень 1!"
